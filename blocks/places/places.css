@@ -1,0 +1,20 @@
+.places {
+    margin: 51px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 17px;
+}
+
+
+
+@media (max-width: 981px) {
+    .places {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 682px) {
+    .places {
+        grid-template-columns: 1fr;
+    }
+}

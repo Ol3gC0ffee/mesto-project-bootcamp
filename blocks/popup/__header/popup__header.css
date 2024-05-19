@@ -1,0 +1,12 @@
+.popup__header {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    margin: 34px 36px 0 36px;
+}
+
+@media (max-width: 510px) {
+    .popup__header {
+        font-size: 18px;
+        margin: 25px 22px 0 22px;
+    }
+}

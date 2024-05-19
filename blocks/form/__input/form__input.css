@@ -1,0 +1,18 @@
+.form__input {
+    height: 27px;
+    width: calc(100% - 72px);
+    margin: 30px 36px 0 36px;
+    border: none;
+    border-bottom: solid;
+    border-width: 1px;
+    font: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media (max-width: 510px) {
+    .form__input {
+        width: calc(100% - 44px);
+        margin: 30px 22px 0 22px
+    }
+}
