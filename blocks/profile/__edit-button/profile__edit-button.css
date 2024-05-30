@@ -9,3 +9,7 @@
     height: 24px;
     width: 24px;
 }
+
+.profile__edit-button:hover {
+    opacity: 60%;
+}

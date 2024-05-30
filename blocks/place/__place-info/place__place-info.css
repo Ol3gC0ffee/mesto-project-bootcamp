@@ -1,6 +1,6 @@
 .place__place-info {
     margin: 0;
-    margin: 25px auto 0 auto;
+    margin: 25px auto 32px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

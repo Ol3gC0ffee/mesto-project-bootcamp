@@ -6,6 +6,11 @@
     border-color: white;
     border-width: 2px;
     background-color: black;
+    border-radius: 2px;
+}
+
+.profile__add-button:hover {
+    opacity: 60%;
 }
 
 @media (max-width: 981px) {

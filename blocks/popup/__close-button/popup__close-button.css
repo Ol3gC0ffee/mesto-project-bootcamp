@@ -7,6 +7,10 @@
     border: none;
 }
 
+.popup__close-button:hover {
+    opacity: 60%;
+}
+
 @media (max-width: 510px) {
     .popup__close-button {
         transform: translate(0, -100%);

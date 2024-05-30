@@ -12,85 +12,84 @@
 <body class="body">
   <div class="page">
     <header class="header">
-      <img src="images/__logo.svg" alt="Место" class="header__logo">
-      <hr class="header__line">
+      <img src="./images/__logo.svg" alt="Место" class="header__logo">
     </header>
 
     <main class="main">
       <section class="profile">
         <div class="profile__profile-info">
-          <img src="images/__avatar.png" alt="Аватарка" class="profile__avatar">
+          <img src="./images/__avatar.png" alt="Аватарка" class="profile__avatar">
 
           <div class="profile__text">
-            <h2 class="profile__name">Жак-Ив Кусто
-              <button class="button profile__edit-button"></button>
-            </h2>
-            <h3 class="profile__status">Исследователь океана</h3>
+            <h1 class="profile__name">Жак-Ив Кусто
+              <button class="button profile__edit-button" type="menu"></button>
+            </h1>
+            <p class="profile__status">Исследователь океана</p>
           </div>
         </div>
 
-        <button class="button profile__add-button">
-          <img src="images/__add.svg" alt="Добавить" class="profile__add-icon">
+        <button class="button profile__add-button" type="menu">
+          <img src="./images/__add.svg" alt="Добавить" class="profile__add-icon">
         </button>
       </section>
 
       <section class="places">
         <article class="place">
-          <img src="images/__item1.png" alt="Карачаевск" class="place__photo">
+          <img src="./images/__item1.png" alt="Карачаевск" class="place__photo">
           <div class="place__place-info">
             <h2 class="place__header">Карачаевск</h2>
-            <button class="button place__like-button">
-              <img src="images/__like.svg" alt="Лайк" class="place__like-icon">
+            <button class="button place__like-button" type="button">
+              <img src="./images/__like.svg" alt="Лайк" class="place__like-icon">
             </button>
           </div>
         </article>
 
         <article class="place">
-          <img src="images/__item2.png" alt="Гора Эльбрус" class="place__photo">
+          <img src="./images/__item2.png" alt="Гора Эльбрус" class="place__photo">
           <div class="place__place-info">
             <h2 class="place__header">Гора Эльбрус</h2>
-            <button class="button place__like-button">
-              <img src="images/__like.svg" alt="Лайк" class="place__like-icon">
+            <button class="button place__like-button" type="button">
+              <img src="./images/__like.svg" alt="Лайк" class="place__like-icon">
             </button>
           </div>
         </article>
 
         <article class="place">
-          <img src="images/__item3.png" alt="Домбай" class="place__photo">
+          <img src="./images/__item3.png" alt="Домбай" class="place__photo">
           <div class="place__place-info">
             <h2 class="place__header">Домбай</h2>
-            <button class="button place__like-button">
-              <img src="images/__like.svg" alt="Лайк" class="place__like-icon">
+            <button class="button place__like-button" type="button">
+              <img src="./images/__like.svg" alt="Лайк" class="place__like-icon">
             </button>
           </div>
         </article>
 
         <article class="place">
-          <img src="images/__item2.png" alt="Гора Эльбрус" class="place__photo">
+          <img src="./images/__item2.png" alt="Гора Эльбрус" class="place__photo">
           <div class="place__place-info">
             <h2 class="place__header">Гора Эльбрус</h2>
-            <button class="button place__like-button">
-              <img src="images/__like.svg" alt="Лайк" class="place__like-icon">
+            <button class="button place__like-button" type="button">
+              <img src="./images/__like.svg" alt="Лайк" class="place__like-icon">
             </button>
           </div>
         </article>
 
         <article class="place">
-          <img src="images/__item3.png" alt="Домбай" class="place__photo">
+          <img src="./images/__item3.png" alt="Домбай" class="place__photo">
           <div class="place__place-info">
             <h2 class="place__header">Домбай</h2>
-            <button class="button place__like-button">
-              <img src="images/__like.svg" alt="Лайк" class="place__like-icon">
+            <button class="button place__like-button" type="button">
+              <img src="./images/__like.svg" alt="Лайк" class="place__like-icon">
             </button>
           </div>
         </article>
 
         <article class="place">
-          <img src="images/__item1.png" alt="Карачаево-Черкесия" class="place__photo">
+          <img src="./images/__item1.png" alt="Карачаево-Черкесия" class="place__photo">
           <div class="place__place-info">
             <h2 class="place__header">Карачаево-Черкесия</h2>
-            <button class="button place__like-button">
-              <img src="images/__like.svg" alt="Лайк" class="place__like-icon">
+            <button class="button place__like-button" type="button">
+              <img src="./images/__like.svg" alt="Лайк" class="place__like-icon">
             </button>
           </div>
         </article>
@@ -104,35 +103,33 @@
 
   <div class="popup">
     <div class="popup__container">
-      <button class="button popup__close-button">
-        <img src="images/__close_icon.svg" alt="Закрыть" class="popup__close-icon">
+      <button class="button popup__close-button" type="reset">
+        <img src="./images/__close_icon.svg" alt="Закрыть" class="popup__close-icon">
       </button>
 
       <h2 class="popup__header">
         Редактировать профиль
       </h2>
 
-      <form method="post" class="form" name="profile">
+      <form method="post" class="popup__form" name="profile">
         <input
             type="text"
-            class="form__input"
+            class="popup__input popup__input_type_str"
             id="name"
             placeholder="Имя"
             name="name"
         />
         <input
             type="text"
-            class="form__input"
+            class="popup__input popup__input_type_str"
             id="about"
             placeholder="О себе"
             name="about"
         />
-        <button type="submit" class="form__button button">Сохранить</button>
+        <button class="popup__button button" type="submit">Сохранить</button>
       </form>
     </div>
   </div>
-
-  <script defer src="pages/index.js"></script>
 </body>
 
 </html>
